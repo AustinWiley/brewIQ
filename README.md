@@ -72,7 +72,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Davey Sjoberg** - *Initial work* - [github](https://github.com/daveysjobey)
+* **Daniel Duffy** - *Initial work* - [github](https://github.com/dpd1208)
+* **Austin Wiley** - *Initial work* - [github](https://gist.github.com/AustinWiley)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
