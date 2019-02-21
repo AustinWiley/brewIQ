@@ -77,14 +77,26 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
    * This is where you can view all of the previously entered information on past batches of beer:
 
      ```
-      * This part if the project is still under construction.
+      * This part of the project is still under construction.
      ```
       
 
   `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
- #### NOTE
- * Hello there!!!
+ ### Future Development
+The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint.  Future build out of the app will include: 
+ * Compleation of Archives Section
+ * Track Daily specific Gravity and display fermentaion progress on a graph
+ * Creat timed alerts to keep you on schedule
+ * Ability to print a pdf of the Brew log
+ * Ability to pull reports in a printable pdf format that will assist in calculating federal and local excise taxes
+ * Creat and add a tool that performs common brewing calultions that include:
+    ** Alpha Acid Hop Adjustments
+    ** O.G. Gravity adjustments
+    ** ABV Calculator
+    ** IBU Calculator
+    ** Yeast Pitch rate Calculator
+    ** And more
 
 ### NPM Packages used
 
@@ -102,16 +114,16 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
       * Fs is a native node package.
 
 ## Built With
-
+The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint. 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 
-* **Davey Sjoberg** - *Initial work* - [github](https://github.com/daveysjobey)
-* **Daniel Duffy** - *Initial work* - [github](https://github.com/dpd1208)
-* **Austin Wiley** - *Initial work* - [github](https://gist.github.com/AustinWiley)
+* **Davey Sjoberg** - [github](https://github.com/daveysjobey)
+* **Daniel Duffy** - [github](https://github.com/dpd1208)
+* **Austin Wiley** - [github](https://gist.github.com/AustinWiley)
 
 See also the list of [contributors](https://github.com/daveysjobey/brewIQ/graphs/contributors) who participated in this project.
 
