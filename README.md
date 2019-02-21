@@ -83,7 +83,7 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
 
   `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
- ### Future Development
+ ## Future Development
 The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint.  Future build out of the app will include: 
  * Compleation of Archives Section
  * Track Daily specific Gravity and display fermentaion progress on a graph
@@ -98,7 +98,7 @@ The App was build by team collaboration using a Scrum board to track our progres
     ** Yeast Pitch rate Calculator
     ** And more
 
-### NPM Packages used
+## NPM Packages used
 
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
