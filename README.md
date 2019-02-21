@@ -84,34 +84,27 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes and written us
  * Ability to pull reports in a printable pdf format that will assist in calculating federal and local excise taxes
  * Creat and add a tool that performs common brewing calultions that include:
     * Alpha Acid Hop Adjustments
+    
     ** O.G. Gravity adjustments
+    
     ** ABV Calculator
+    
     ** IBU Calculator
+    
     ** Yeast Pitch rate Calculator
+    
     ** And more
-
-## NPM Packages used
-
-   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
-
-   * [Axios](https://www.npmjs.com/package/axios)
-
-     * Axios is used to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
-
-   * [Moment](https://www.npmjs.com/package/moment)
-
-   * [DotEnv](https://www.npmjs.com/package/dotenv)
-
-   * [fs](https://www.npmjs.com/package/file-system)
-      * Fs is a native node package.
 
 ## Built With
 The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint. 
-* [Dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+
+* [Materialize](https://materializecss.com/) - Front end framework.
+* [Heroku](https://heroku.com) - Cloud platform for deployment.
 * [Express](https://www.npmjs.com/package/express) - Server framework.
-* [Express-handlebars](https://rometools.github.io/rome/) - A [Handlebars](https://www.npmjs.com/package/handlebars) view engine for Express. Used to generate dynamic HTML.
 * [sequelize](http://docs.sequelizejs.com/) -  Promise-based ORM for Node.js.
+* [Express-handlebars](https://rometools.github.io/rome/) - A [Handlebars](https://www.npmjs.com/package/handlebars) view engine for Express. Used to generate dynamic HTML.
 * [mysql2](https://www.npmjs.com/package/mysql2) - MySQL client for Node.js.
+* [Dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a .env file into process.env.
 
 ## Authors
 
