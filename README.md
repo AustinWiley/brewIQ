@@ -11,7 +11,7 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
 
 ## How it works
 
-### BeerKan has five main streams in its Kan Ban Boord:
+### BeerKan has five streams in its Kan Ban Boord:
 
    * `Create A new Beer`
 
@@ -32,8 +32,8 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
       ```
        * Name of the beer
        * Style
-       * Name of Brewmaster
-       * Target Brewing Date
+       * Name of Brew Master
+       * Target Brew Date
       ```
   `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
   
@@ -86,14 +86,14 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
   `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
  ## Future Development
-The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint.  Future build out of the app will include: 
+  Future build out of the app could include: 
  * Compleation of Archives Section
  * Track Daily specific Gravity and display fermentaion progress on a graph
  * Creat timed alerts to keep you on schedule
  * Ability to print a pdf of the Brew log
  * Ability to pull reports in a printable pdf format that will assist in calculating federal and local excise taxes
  * Creat and add a tool that performs common brewing calultions that include:
-    ** Alpha Acid Hop Adjustments
+    * Alpha Acid Hop Adjustments
     ** O.G. Gravity adjustments
     ** ABV Calculator
     ** IBU Calculator
