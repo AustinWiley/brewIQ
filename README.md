@@ -1,4 +1,4 @@
-# BeerKan
+# BeerKan(or brewIQ)
 
 Beer tracking app for the professional brewer and the avid homebrewer that works like a Kanban Board.  BeerKan as a digital Brew log allowing the user to track each batch of beer from raw ingredient to keg. This app is for the Brewer who is brewing multiple batches at a time with batches at different stages of the process.  Allows the brewer to be more efficient, brew more beer and archive all brewlogs.
 
