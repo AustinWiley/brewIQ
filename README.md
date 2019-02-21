@@ -3,7 +3,7 @@
 Beer tracking app for the professional brewer and the avid homebrewer that works like a Kanban Board.  BeerKan as a digital Brew log allowing the user to track each batch of beer from raw ingredient to keg. This app is for the Brewer who is brewing multiple batches at a time with batches at different stages of the process.  Allows the brewer to be more efficient, brew more beer and archive all brewlogs.
 
 ## Deployed App
-Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes and written using Sequelize npm package.  
+Deployed on Heroku using the JAWS_DB add-on as the MYSQL databes and written using Sequelize npm package.  
 #### Click Here: [BeerKan](https://cryptic-fjord-74772.herokuapp.com/)
 ##
 
