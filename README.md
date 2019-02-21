@@ -2,20 +2,13 @@
 
 A beer tracking app for the professional Brewer and the avid homebrewer that works like a Kanban Board.  BeerKan as a digital Brew log allowing the user to track each batch of beer from raw ingredient to keg. This app is for the Brewer who is always juggling too many batches of beer at a time that he/she cant always remember where in the process every batch is.  Allows the brewer to be more efficient, brew more beer and archive all brewlogs.
 
-# Deployed App
+## Deployed App
 
-https://cryptic-fjord-74772.herokuapp.com/
+[BeerKan](https://cryptic-fjord-74772.herokuapp.com/)
 
-# Spotify API keys
-SPOTIFY_ID=your-spotify-id
-SPOTIFY_SECRET=your-spotify-secret
-This file will be used by the dotenv package to set environment variables to the global process.env #object in node.
+## How it works
 
-The Spotify API requires you sign up as a developer to generate the necessary credentials. You can visit https://developer.spotify.com/my-applications/#!/ in order to generate a client id and client secret.
-
-Open a node termial to run the liri.js file.
-
-liri.js can take in one of the following commands:
+BeerKan has tree main streams in its Kan Ban Boord:
 
 concert-this
 
