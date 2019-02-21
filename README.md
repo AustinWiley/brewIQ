@@ -3,15 +3,13 @@
 Beer tracking app for the professional brewer and the avid homebrewer that works like a Kanban Board.  BeerKan as a digital Brew log allowing the user to track each batch of beer from raw ingredient to keg. This app is for the Brewer who is brewing multiple batches at a time with batches at different stages of the process.  Allows the brewer to be more efficient, brew more beer and archive all brewlogs.
 
 ## Deployed App
-
-Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.  
-
+Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes and written using Sequelize npm package.  
 #### Click Here: [BeerKan](https://cryptic-fjord-74772.herokuapp.com/)
 ##
 
 ## How it works
 
-### BeerKan has five streams in its Kan Ban Boord:
+### BeerKan has five streams in its Kan Ban Board:
 
    * `Create A new Beer`
 
@@ -35,7 +33,6 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
        * Name of Brew Master
        * Target Brew Date
       ```
-  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
   
 2. `Inventory`
 
@@ -47,7 +44,6 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
        * units of mesurement
        * notes
      ```
-  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
   
 3. `Brew In-process`
 
@@ -60,7 +56,6 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
        * Dry Hopping.
        * Cellaring.
      ```
-  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
   
 4. `Distribution`
 
@@ -72,7 +67,6 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
        * Racking(kegging) information.
        * Volumes.
      ```
-  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
 4. `Archives`
 
@@ -81,9 +75,6 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
      ```
       * This part of the project is still under construction.
      ```
-      
-
-  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
  ## Future Development
   Future build out of the app could include: 
@@ -117,9 +108,11 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes.
 
 ## Built With
 The App was build by team collaboration using a Scrum board to track our progress with the goal of a MVP within a two week sprint. 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+* [Express](https://www.npmjs.com/package/express) - Server framework.
+* [Express-handlebars](https://rometools.github.io/rome/) - A [Handlebars](https://www.npmjs.com/package/handlebars) view engine for Express. Used to generate dynamic HTML.
+* [sequelize](http://docs.sequelizejs.com/) -  Promise-based ORM for Node.js.
+* [mysql2](https://www.npmjs.com/package/mysql2) - MySQL client for Node.js.
 
 ## Authors
 
