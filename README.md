@@ -7,9 +7,9 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
 [BeerKan]https://cryptic-fjord-74772.herokuapp.com/)
 ##
 
-### How it works
+## How it works
 
-#### BeerKan has five main streams in its Kan Ban Boord:
+### BeerKan has five main streams in its Kan Ban Boord:
 
    * `Create A new Beer`
 
@@ -17,59 +17,61 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
 
    * `Brew In-process`
 
-   * `distro`
+   * `Distribution`
    
    * `Archive`
 
-### What Each Command Does
+### What Each Stream Does
 
-1. `node liri.js concert-this <artist/band name here>`
+1. `Start a new Beer`
 
-   * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
-
-      ```
-       * Name of the venue
-       * Venue location
-       * Date of the Event
-      ```
-
-2. `node liri.js spotify-this-song '<song name here>'`
-
-   * This will show the following information about the song in your terminal/bash window
+   * This will allow you create a new card with the following information:
 
       ```
-       * Artist
-       * The song's name
-       * A preview link of the song from Spotify
-       * The album that the song is from
+       * Name of the beer
+       * Style
+       * Name of Brewmaster
+       * Target Brewing Date
+      ```
+  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
+  
+2. `Inventory`
+
+   * This will is where you can plan out your beer before brew day with all the info necessary for prep:
+
+      ```
+       * Ingredients
+       * Fermantaion Tank 
+       * units of mesurement
+       * notes
      ```
+  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
+  
+3. `Brew In-process`
 
-    * If no song is provided then the program will default to "The Sign" by Ace of Base.
-
-3. `node liri.js movie-this '<movie name here>'`
-
-   * This will output the following information to your terminal/bash window:
+   * This is where you will track the beer from Wort production to fermented beer including:
 
      ```
-       * Title of the movie.
-       * Year the movie came out.
-       * IMDB Rating of the movie.
-       * Rotten Tomatoes Rating of the movie.
-       * Country where the movie was produced.
-       * Language of the movie.
-       * Plot of the movie.
-       * Actors in the movie.
+       * Brew House Targets and efficiencies.
+       * Yeast Management.
+       * Fermentation.
+       * Dry Hopping.
+       * Cellaring.
      ```
+  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
+  
+4. `Distribution`
 
-   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+   * This is where you will track:
 
-4. `node liri.js do-what-it-says`
+     ```
+       * Transfer Dates.
+       * Bright tank location.
+       * Racking(kegging) information.
+       * Volumes.
+     ```
+  `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
-  * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-     * It will run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-
-     * The text in random.txt can be edited to search movie-this and concert-this as well.
 
  #### NOTE
  * In addition to logging the data to the terminal/bash window, the app will also log the output data to a .txt file called `log.txt`.
@@ -89,58 +91,6 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
    * [fs](https://www.npmjs.com/package/file-system)
       * Fs is a native node package.
 
-This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
-
- * Name of the venue
- * Venue location
- * Date of the Event
-node liri.js spotify-this-song '<song name here>'
-
-This will show the following information about the song in your terminal/bash window
-
- * Artist
- * The song's name
- * A preview link of the song from Spotify
- * The album that the song is from
-If no song is provided then the program will default to "The Sign" by Ace of Base.
-
-node liri.js movie-this '<movie name here>'
-
-This will output the following information to your terminal/bash window:
-
-  * Title of the movie.
-  * Year the movie came out.
-  * IMDB Rating of the movie.
-  * Rotten Tomatoes Rating of the movie.
-  * Country where the movie was produced.
-  * Language of the movie.
-  * Plot of the movie.
-  * Actors in the movie.
-If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
-node liri.js do-what-it-says
-
-Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
-
-The text in random.txt can be edited to search movie-this and concert-this as well.
-
-NOTE
-In addition to logging the data to the terminal/bash window, the app will also log the output data to a .txt file called log.txt.
-NPM Packages used
-Node-Spotify-API
-
-Axios
-
-Axios is used to grab data from the OMDB API and the Bands In Town API
-Moment
-
-DotEnv
-
-fs
-
-Fs is a native node package.
 
 ## Getting Started
 
