@@ -2,13 +2,9 @@
 
 A beer tracking app for the professional Brewer and the avid homebrewer that works like a Kanban Board.  BeerKan as a digital Brew log allowing the user to track each batch of beer from raw ingredient to keg. This app is for the Brewer who is always juggling too many batches of beer at a time that he/she cant always remember where in the process every batch is.  Allows the brewer to be more efficient, brew more beer and archive all brewlogs.
 
-#Deployed App
+# Deployed App
+
 https://cryptic-fjord-74772.herokuapp.com/
-
-#Instructions on how to use Liri-node-app
-Copy the liri-node-app repository to your computer. Navigate to the root of your project and run npm install in a terminal to download the nessesary npm packages.
-
-Next, create a file named .env, add the following to it, replacing the values with your API keys for spotify:
 
 # Spotify API keys
 SPOTIFY_ID=your-spotify-id
