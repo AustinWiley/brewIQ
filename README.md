@@ -105,6 +105,7 @@ The App was build by team collaboration using a Scrum board to track our progres
 * [Express-handlebars](https://www.npmjs.com/package/express-handlebars) - A [Handlebars](https://www.npmjs.com/package/handlebars) view engine for Express. Used to generate dynamic HTML.
 * [mysql2](https://www.npmjs.com/package/mysql2) - MySQL client for Node.js.
 * [Dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a .env file into process.env.
+* [GitKraken](https://www.gitkraken.com/) - Version controll software.
 
 ## Authors
 
