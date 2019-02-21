@@ -76,7 +76,10 @@ A beer tracking app for the professional Brewer and the avid homebrewer that wor
 
    * This is where you can view all of the previously entered information on past batches of beer:
 
-       * This part if the project is still under construction.
+     ```
+      * This part if the project is still under construction.
+     ```
+      
 
   `add gif here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`
 
