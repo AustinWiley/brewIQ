@@ -78,9 +78,8 @@ Deployed on Heroku using the JAWS_DB add-on for the MYSQL databes and written us
 
  ## Future Development
   Future build out of the app could include: 
- * Compleation of Archives Section
  * Track Daily specific Gravity and display fermentaion progress on a graph
- * Creat timed alerts to keep you on schedule
+ * Create timed alerts to keep you on schedule
  * Ability to print a pdf of the Brew log
  * Ability to pull reports in a printable pdf format that will assist in calculating federal and local excise taxes
  * Creat and add a tool that performs common brewing calultions that include:
